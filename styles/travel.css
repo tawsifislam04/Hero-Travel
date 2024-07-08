@@ -54,7 +54,7 @@ nav{
 nav span{
     color: var(--btn-color)
 }
-nav ul{
+nav> ul{
     display: flex;
     gap: 44px;
 }
@@ -110,4 +110,90 @@ nav li{
     color: #FFFFFF;
     border: 0;
     border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Style */
+
+@media screen and (max-width:600px) {
+    nav
+    {
+        flex-direction: column;
+    }
+    nav ul{
+        flex-wrap: wrap;
+    }
+    nav{
+        margin: 10px;
+    }
+    .nav-title{
+        font-size: 20px;
+    }
+    .banner{
+        padding: 32px 16px;
+        margin: 0 20px;
+    }
+    .banner-content{
+        padding: 0;
+    }
+    .banner-title{
+        font-size: 22px;
+    }
+    .banner-description{
+        font-size: 14px;
+    }
+    .banner-form input,select,button{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .banner-form input{
+        width: 240px;
+    }
 }
