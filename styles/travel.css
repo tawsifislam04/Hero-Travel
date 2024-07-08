@@ -112,7 +112,38 @@ nav li{
     border-radius: 8px;
 }
 
+/* Tour Style */
 
+.tour{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    gap: 53px;
+}
+.tour ul,.tour-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+}
+.tour-ending{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--third-color);
+    margin-bottom: 32px;    
+}
+.tour ul li{
+    margin-bottom: 16px;
+}
+.medium-btn{
+    font-size: 20px;
+    font-weight: 800;
+    color: #FFFFFF;
+    background-color: var(--btn-color);
+    padding: 14px 34px;
+    border: 0;
+    border-radius: 8px;
+}
 
 
 
