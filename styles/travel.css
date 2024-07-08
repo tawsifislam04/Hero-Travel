@@ -72,7 +72,8 @@ nav li{
     cursor: pointer;
 }
 .banner{
-    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    /* background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png'); */
+    background: linear-gradient(#131318,rgba(19, 19, 24, 0)),url('../Images/Group\ 13\ \(1\)\ \(1\).png') ;
     background-repeat: no-repeat;
     padding: 106px 185px;
     background-size: cover;
@@ -168,46 +169,9 @@ nav li{
 }
 .destination-img{
     margin-top: 48px;
-}
-.div-1,.div-2,.div-3{
     display: flex;
-    gap: 24px;
-    margin-bottom: 24px;
-    position: relative;
-}
-.destination-img p{
-    position: absolute;
-    font-size: 28px;
-    font-weight: 800;
-    color: #FFFFFF;
-}
-.p-1{
-    top:40%;
-    left: 20%;
-}
-.p-2{
-    top:40%;
-    left: 70%;
-}
-.p-3{
-    top:40%;
-    left: 10%;
-}
-.p-4{
-    top:40%;
-    left: 45%;
-}
-.p-5{
-    top:40%;
-    left: 83%;
-}
-.p-6{
-    top:40%;
-    left: 14%;
-}
-.p-7{
-    top:40%;
-    left: 65%;
+    flex-wrap: wrap;
+    gap: 24px; 
 }
 
 
