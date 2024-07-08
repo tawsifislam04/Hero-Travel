@@ -144,7 +144,12 @@ nav li{
     border: 0;
     border-radius: 8px;
 }
-
+.tour-img{
+    width: 100%;
+}
+.tour-img img{
+    width: 100%;
+}
 
 
 
@@ -226,5 +231,13 @@ nav li{
     }
     .banner-form input{
         width: 240px;
+    }
+    .tour{
+        flex-direction: column;
+        margin: 24px 20px;
+        gap: 14px;
+    }
+    .medium-btn{
+        width: 174px;
     }
 }
