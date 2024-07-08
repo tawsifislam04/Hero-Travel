@@ -1,4 +1,8 @@
 /* Shared Style */
+body{
+    margin: 0;
+    padding: 0;
+}
 
 *{
   font-family: "Mulish", sans-serif;
@@ -60,4 +64,50 @@ nav li{
     font-weight: 400;
     list-style: none;
     cursor: pointer;
+}
+.banner{
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    padding: 106px 185px;
+    background-size: cover;
+    border-radius: 16px;
+}
+.banner-content{
+    max-width: 676px;
+    padding: 0px 62px 48px 62px;
+    text-align: center;
+}
+.banner-title{
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    color: #FFFFFF;
+}
+.banner-description{
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.banner-form{
+    max-width: 800px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 16px;
+    border-radius: 8px;
+}
+.banner-form input,select{
+    padding: 16px 53px 16px 16px;
+    color: rgba(19, 19, 24, 0.5);
+    border-radius: 8px;
+    border: 0;    
+    width: 174px;
+}
+.banner-form button{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 16px 34px;
+    background-color: var(--btn-color);
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
 }
