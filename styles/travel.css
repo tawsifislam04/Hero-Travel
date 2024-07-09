@@ -36,6 +36,16 @@ main
     margin-top: 0;
 }
 
+.primary-btn{
+    font-size: 20px ;
+    font-weight: 800;
+    color: #FFFFFF;
+    background-color: var(--btn-color);
+    padding: 14px 24px;
+    border: none;
+    border-radius: 8px;
+}
+
 /* Header Style */
 
 nav{
@@ -187,20 +197,26 @@ nav li{
 
 /* Why-choose Section */
 
+.why-choose{
+    margin-bottom: 100px;
+}
 .why-choose-content{
     margin: 100px 264px 48px 264px;
     text-align: center;
 }
 .card-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
+    /* display: grid;
+    grid-template-columns: repeat(2,1fr); */
     gap: 24px;
-    justify-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .card{
     padding: 32px 55px 32px 32px;
     border: 0;
     border-radius: 16px;
+    width: 40%;
 }
 .card-1{
     background-color: rgba(251, 181, 99, 0.2);
@@ -209,9 +225,29 @@ nav li{
     background-color: rgba(41, 206, 246, 0.2);
 }
 .card-3{
-    background-color:rgba(233, 68, 68, 0.2);
-    place-self: center;   
+    background-color:rgba(233, 68, 68, 0.2); 
 }
+.card-icon{
+    font-size: 34px;
+}
+.card-title{
+    font-size: 24px ;
+    font-weight: 800;
+    color: #131318;
+}
+.card-description{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
+/* Deal Section */
+
+.deal-content{
+    text-align: center;
+    margin: 0 264px;
+}
+
 
 
 
@@ -337,5 +373,18 @@ nav li{
     }
     .destination-img img{
         width: 100%;
+    }
+    .why-choose{
+        margin: 20px;
+    }
+    .why-choose-content{
+        margin: 0px;
+    }
+    .card-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .card{
+        width: auto;
     }
 }
