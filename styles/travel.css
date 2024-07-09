@@ -273,4 +273,15 @@ nav li{
     .medium-btn{
         width: 174px;
     }
+    .destination-content{
+        margin: 0 20px;
+    }
+    .destination-img{
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 24px 20px;
+    }
+    .destination-img img{
+        width: 100%;
+    }
 }
