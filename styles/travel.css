@@ -19,6 +19,7 @@ body{
     font-size: 40px;
     font-weight: 800;
     color: var(--primary-color);
+    margin-bottom: 24px;
 }
 
 header,
@@ -32,6 +33,7 @@ main
     font-size: 1rem;
     font-weight: 400;
     color: var(--secondary-color);
+    margin-top: 0;
 }
 
 /* Header Style */
@@ -164,9 +166,6 @@ nav li{
     margin: 0px 264px;
     text-align: center;
 }
-.destination-title{
-    margin-bottom: 8px;
-}
 .destination-img{
     margin-top: 48px;
     display: flex;
@@ -185,6 +184,61 @@ nav li{
 .maldives,.Indonesia,.Srilanka,.North-America,.kashmir,.BD,.monkey{
     position: relative;
 }
+
+/* Why-choose Section */
+
+.why-choose-content{
+    margin: 100px 264px 48px 264px;
+    text-align: center;
+}
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 24px;
+    justify-items: center;
+}
+.card{
+    padding: 32px 55px 32px 32px;
+    border: 0;
+    border-radius: 16px;
+}
+.card-1{
+    background-color: rgba(251, 181, 99, 0.2);
+}
+.card-2{
+    background-color: rgba(41, 206, 246, 0.2);
+}
+.card-3{
+    background-color:rgba(233, 68, 68, 0.2);
+    place-self: center;   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
