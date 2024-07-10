@@ -283,6 +283,75 @@ nav li{
     margin-top: 24px;
 }
 
+/* Simple Perfect place style */
+
+.simple-place{
+    margin-top: 100px;
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+.simple-place-content{
+    width: 100%;
+}
+.simple-place li{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #131318;
+    margin-bottom: 16px;
+}
+.simple-place .medium-btn{
+    margin-top: 16px;
+}
+.simple-place-img{
+    background: linear-gradient(0deg , #161217,rgba(19, 19, 24, 0)),url('../Images/Group\ 40089.png');
+    background-size: cover;
+    width: 100%;
+    border: none;
+    border-radius: 16px;
+}
+.simple-place-img h3{
+    font-size: 24px ;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding: 175px 147px;
+    text-align: center;
+}
+.simple-place-img img{
+    position: relative;
+    left: 450px;
+}
+.simple-place-img .on-off{
+    left: -90px;
+}
+hr{
+    width: 90%;
+    height: 4px;
+    margin-bottom: 24px; 
+    background-color: #FFFFFF;
+    background: linear-gradient(to left,blue,rgb(230, 224, 224));
+    background-position: left ;
+    border: 1px groove #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
