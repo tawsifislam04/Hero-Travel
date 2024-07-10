@@ -247,6 +247,45 @@ nav li{
     text-align: center;
     margin: 0 264px;
 }
+.deal-img-container{
+    margin-top: 48px;
+}
+.deal-img{
+    position: relative;
+    margin-bottom: 24px; 
+}
+.item{
+    position: absolute;
+    max-width: 452px;
+    top: 106px ;
+    left: 585px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border: none;
+    border-radius: 16px;
+}
+.item-title{
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin-bottom: 0;
+}
+.item-prize{
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--btn-color);
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+.deal-btn{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+
+
+
+
 
 
 
@@ -386,5 +425,32 @@ nav li{
     }
     .card{
         width: auto;
+    }
+    .deal,
+    .deal-content
+    {
+        margin: 20px;
+    }
+    .deal-content .section-title{
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+    .deal-img .item .card-description span{
+       display: none;
+    }
+    .deal-img img{
+        width: 100%;
+        height: 375px;
+    }
+    .item{
+        top: 26%;
+        left: 6%;
+        right: 4%;
+        max-width: 255px;
+        padding: 14px;
+    }
+    .deal-btn{
+        margin: 0px;
+        width: 100%;
     }
 }
