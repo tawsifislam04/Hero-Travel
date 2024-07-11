@@ -522,4 +522,14 @@ hr{
         margin: 0px;
         width: 100%;
     }
+    .simple-place{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .simple-place .sound{
+        left: 200px;
+    }
+    .simple-place-img h3{
+        padding: 70px 30px 50px;
+    }
 }
