@@ -606,4 +606,30 @@ nav li{
     .simple-place-img h3{
         padding: 70px 30px 50px;
     }
+    .newsletter{
+        flex-direction: column  ;
+        margin: 20px;
+    }
+    .newsletter-btn{
+        padding: 20px;
+    }
+    .newsletter input{
+        padding-right: 100px;
+    }
+    .newsletter-img img{
+        width: 100%;
+        height: 300px;
+    }
+    .button{
+        padding: 15px 26px;
+        top: 187px;
+        left: 107px;
+        max-width: 161px;
+    }
+    .button-heading{
+        font-size: 21px;
+    }
+    .button-title{
+        font-size: 1rem;
+    }
 }
