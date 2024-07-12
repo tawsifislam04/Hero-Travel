@@ -36,6 +36,12 @@ main
     margin-top: 0;
 }
 
+.section-description-2{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #5A5A5D;
+}
+
 .primary-btn{
     font-size: 20px ;
     font-weight: 800;
@@ -55,7 +61,7 @@ nav{
     margin-bottom: 50px;
     margin-top: 50px;
 }
-.nav-div{
+.hero-div{
     display: flex;  
     gap: 17px;
     align-items: center;
@@ -235,11 +241,6 @@ nav li{
     font-weight: 800;
     color: #131318;
 }
-.card-description{
-    font-size: 1rem;
-    font-weight: 400;
-    color: #5A5A5D;
-}
 
 /* Deal Section */
 
@@ -408,18 +409,42 @@ nav li{
     margin-bottom: 0;
 }
 
+/* Footer Style */
 
-
-
-
-
-
-
-
-
-
-
-
+footer{
+    padding: 110px 284px;
+    background-color: rgba(19, 19, 24, 0.05);
+    margin-top: 100px;
+}
+.footer-content{
+    margin: 0 auto;
+    max-width: 759px;
+}
+.footer-content .section-description-2{
+    text-align: center;
+}
+.footer-content .hero-div{
+    margin: 0 auto;
+    max-width: 290px;
+}
+.footer-content .hero-div h3{
+    font-size: 32px;
+    margin: 0;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    font-size: 20px;
+}
+footer hr{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.footer-ending{
+    margin-top: 0;
+    text-align: center;
+}
 
 
 
