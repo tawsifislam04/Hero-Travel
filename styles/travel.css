@@ -446,86 +446,6 @@ footer hr{
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* Responsive Style */
 
 @media screen and (max-width:600px) {
@@ -656,5 +576,8 @@ footer hr{
     }
     .button-title{
         font-size: 1rem;
+    }
+    footer{
+        padding: 20px;
     }
 }
